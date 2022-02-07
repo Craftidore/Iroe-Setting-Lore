@@ -15,6 +15,6 @@ It took 1000 years for
     the magic to become set in the world
     the Post-Apocalypser species to become distinct
     the SkyCities to start falling
-    the CorePeoples (now dwarves to return to the surface)
+    the CorePeoples (now dwarves) to return to the surface
 
 Thus, in 1100 NA8, known history begins.
