@@ -10,13 +10,20 @@ body {
 }
 
 header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   background-color: #dab87e;
-  height: 50px;
 }
 header > h1 {
   float: left;
-  margin: 10px 0 10px 0;
-  font-size: 1.75em;
+  margin: 0;
+  padding: 10px 0 10px 0;
+  font-size: 28px;
+}
+header + div {
+  margin-top: 50px;
 }
 
 .sidebar {
