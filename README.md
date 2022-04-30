@@ -4,7 +4,7 @@ This is a repo to store all the information about the fictional [RPG](https://en
 I set a number of my own Campaigns in this setting, and originally made this repo so that my players could access the information.
 However, I'd love if this campaign setting got adopted by more than just my RPG group, so if you want to use (or just pull ideas from) this setting, feel free. 
 I'm listing it with a [CC BY-NC license](#license), so you're free to copy, reuse, or modify any of this content so long as it isn't for commercial purposes (and I am given attribution). 
-Do note, this reference is still under construction and a *lot* of infomation is missing at the moment, so please bear with me as I finish writing this all out.
+Do note, this reference is still under construction and a *lot* of information is missing at the moment, so please bear with me as I finish writing this all out.
 
 
 ## License
