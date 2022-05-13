@@ -2,7 +2,6 @@ import os
 from os.path import join, isfile
 import json
 import re
-from tkinter import W
 
 class dirList:
     def __init__(self):
