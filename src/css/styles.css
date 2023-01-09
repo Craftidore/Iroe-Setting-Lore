@@ -10,13 +10,20 @@ body {
 }
 
 header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   background-color: #dab87e;
-  height: 50px;
 }
 header > h1 {
   float: left;
-  margin: 10px 0 10px 0;
-  font-size: 1.75em;
+  margin: 0;
+  padding: 10px 0 10px 0;
+  font-size: 28px;
+}
+header + div {
+  margin-top: 50px;
 }
 
 .sidebar {
@@ -54,7 +61,6 @@ header > h1 {
   .container > :nth-child(2) h1, .container > :nth-child(2) h2, .container > :nth-child(2) h3, .container > :nth-child(2) h4, .container > :nth-child(2) h5, .container > :nth-child(2) h6 {
     margin-top: 0;
   }
-
   .sidebar {
     width: 300px;
     height: 100%;
@@ -62,7 +68,6 @@ header > h1 {
   .sidebar li {
     padding: 20px 16px;
   }
-
   #maincontent {
     padding: 10px;
   }
