@@ -131,4 +131,3 @@ function parseMarkdown(markdownText) {
     console.log(htmlText);
     return htmlText.trim();
 }
-//# sourceMappingURL=main.js.map
