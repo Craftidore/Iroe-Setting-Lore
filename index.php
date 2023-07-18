@@ -3,7 +3,7 @@
 $isGET = false;
 $page = "index";
 if ($_SERVER["REQUEST_METHOD"] === "GET") {
-    $isGet = true;
+    $isGET = true;
     if($_GET["page"] && trim($_GET["page"]) !== "") {
         $page = trim($_GET["page"]);
     }
@@ -23,7 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] === "GET") {
         <?php 
         $path = "/home/" . get_current_user() . "/iroe-lore/html/" . $page . ".html";
         if (file_exists($path)) {
-            include($path);
+            readfile($path);
         }
         else {
             echo "File does not exist";
