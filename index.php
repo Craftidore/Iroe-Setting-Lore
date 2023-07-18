@@ -2,12 +2,12 @@
 <?php
 $isGET = false;
 $page = "index";
-/* if ($_SERVER["REQUEST_METHOD"] === "GET") { */
-/*     $isGet = true; */
-/*     if($_GET["page"] && trim($_GET["page"]) !== "") { */
-/*         $page = trim($_GET["page"]); */
-/*     } */
-/* } */
+if ($_SERVER["REQUEST_METHOD"] === "GET") {
+    $isGet = true;
+    if($_GET["page"] && trim($_GET["page"]) !== "") {
+        $page = trim($_GET["page"]);
+    }
+}
 ?>
 <html>
     <head>
