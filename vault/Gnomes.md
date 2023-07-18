@@ -1,0 +1,6 @@
+- Gnomes live for an average of 100 years (capped at 120)
+- Most gnomes are on the cruel side, living in a society where slavery of other gnomes is frequent, even mandatory.
+- Some gnomes, any that you'd meet while adventuring, are struck with the Wanderlust. Those struck with the Wanderlust are:
+    - Drawn to adventure & novelty; traveling to new places.
+    - Develop a sense of morality
+    - 
