@@ -22,10 +22,17 @@ if ($_SERVER["REQUEST_METHOD"] === "GET") {
     </head>
     <body>
         <?php 
-        $path = "/home/" . get_current_user() . "/iroe-lore/html/" . $page . ".html";
-        echo "<!--" . $path . "-->";
+        $startPath = "/home/" . get_current_user() . "/iroe-lore/html/";
+        $path = $page . ".html";
         if (file_exists($path)) {
-            readfile($path);
+            $path = realpath($path);
+            echo "<!--" . $path . "-->";
+            if (substr($path, 0, strlen($startPath)) === $startPath) {
+                readfile($path);
+            }
+            else {
+                echo "Invalid location; please stay within the correct directory";
+            }
         }
         else {
             echo "File does not exist";
