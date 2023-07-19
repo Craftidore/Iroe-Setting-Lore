@@ -6,6 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] === "GET") {
     $isGET = true;
     if($_GET["page"] && trim($_GET["page"]) !== "") {
         $page = trim($_GET["page"]);
+        $page = str_replace("..", "", $page);
     }
 }
 ?>
@@ -22,6 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] === "GET") {
     <body>
         <?php 
         $path = "/home/" . get_current_user() . "/iroe-lore/html/" . $page . ".html";
+        echo "<!--" . $path . "-->";
         if (file_exists($path)) {
             readfile($path);
         }
