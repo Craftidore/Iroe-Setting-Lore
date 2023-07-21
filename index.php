@@ -6,7 +6,6 @@ if ($_SERVER["REQUEST_METHOD"] === "GET") {
     $isGET = true;
     if($_GET["page"] && trim($_GET["page"]) !== "") {
         $page = trim($_GET["page"]);
-        $page = str_replace("..", "", $page);
     }
 }
 ?>
@@ -22,20 +21,15 @@ if ($_SERVER["REQUEST_METHOD"] === "GET") {
     </head>
     <body>
         <?php 
-        $startPath = "/home/" . get_current_user() . "/iroe-lore/html/";
-        $path = $page . ".html";
-        if (file_exists($path)) {
-            $path = realpath($path);
-            echo "<!--" . $path . "-->";
-            if (substr($path, 0, strlen($startPath)) === $startPath) {
-                readfile($path);
-            }
-            else {
-                echo "Invalid location; please stay within the correct directory";
-            }
+        $startPath = "/home/customer/iroe-lore/html/";
+        $path = $startPath . $page . ".html";
+        echo "<!--" . $path . "-->";
+        $path = realpath($path);
+        if (substr($path, 0, strlen($startPath)) === $startPath) {
+            readfile($path);
         }
         else {
-            echo "File does not exist";
+            echo "Invalid directory or file does not exist";
         }
         ?>
     </body>
