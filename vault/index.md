@@ -3,8 +3,9 @@
 This site is a work in progress! Currently few pages have content, and the site itself isn't set up with navigation in mind.
 Until the site has more content, these are lower priorities.
 
-Pages that exist in some capacity already:
+## Pages that exist in some capacity already:
 
+- [[About]]
 - [[Anti-Gravity-Devices]]
 - [[Briderus-Spells]]
 - [[Elves]]
@@ -12,7 +13,6 @@ Pages that exist in some capacity already:
 - [[Geklian-Gnomes]]
 - [[Ghuls]]
 - [[Gnomes]]
-- [[index]]
 - [[Magic-Binder]]
 - [[Moonstriker-Assassins]]
 - [[NA8]]
@@ -22,3 +22,7 @@ Pages that exist in some capacity already:
 - [[Wandering-Gnomes]]
 - [[Wanderlust]]
 - [[Wood-Elves]]
+
+## To-Do List:
+
+- [[ToDo]]
