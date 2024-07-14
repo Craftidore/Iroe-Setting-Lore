@@ -1,0 +1,8 @@
+# Return of the Biomes
+
+Around 1100 NA8, the SkyBiome fell, joining the MotherBiome.
+The CoreBiome returned to the surface shortly after.
+The CoreBiome, naturally contained what are now called Dwarves while the SkyBiome contained Elves.
+Some small enclaves of the MotherBiome contained people who had mutated in very similar ways, creating Orcs, Gnomes, and the other races.
+
+In the centuries following the the return of the biome-dwellers, society was rebuilt.
