@@ -8,6 +8,7 @@ Until the site has more content, these are lower priorities.
 - [[About]]
 - [[Anti-Gravity-Devices]]
 - [[Briderus-Spells]]
+- [[Clothing]]
 - [[Elves]]
 - [[Free-Elves]]
 - [[Geklian-Gnomes]]
