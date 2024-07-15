@@ -11,7 +11,7 @@ or other things which would directly help them provide for their families.
 This rule of thumb applies less to races who live more than a few centuries.
 The ["boots" theory of economics](<https://en.wikipedia.org/wiki/Boots_theory>) applies even more to the peoples of such races.
 [[Elves]] and [[Dwarves]] place especially high value on gear which lasts for a long time,
-and even those of the lower-class try to save up for higher quality clothing, tools, and .
+and even those of the lower-class try to save up for higher quality clothing and tools.
 
 Another major exception to this are soldiers. Even low-paid soldiers and militamen are usually given well-made clothing,
 as any clothing which might fall off or get in the way in a battle would be a major risk.
