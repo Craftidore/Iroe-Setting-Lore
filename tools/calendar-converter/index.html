@@ -1,0 +1,55 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>Iroe Calendar Converter</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <h1>Iroe Calendar Converter</h1>
+        <p>Iroe and Earth have the same calendar, but the month names are different.</p>
+        <p>Here's a poorly written tool to convert between them.</p>
+        <h2 id="to-iroe">To Iroe</h2>
+        <form id="to-iroe-form" onsubmit="return false;">
+            <select name="earth-months" id="earth-months">
+                <option value="january">January</option>
+                <option value="february">February</option>
+                <option value="march">March</option>
+                <option value="april">April</option>
+                <option value="may">May</option>
+                <option value="june">June</option>
+                <option value="july">July</option>
+                <option value="august">August</option>
+                <option value="september">September</option>
+                <option value="october">October</option>
+                <option value="november">November</option>
+                <option value="december">December</option>
+                <input type="submit" value="To Iroe Month">
+            </select>
+        </form>
+        <div id="to-iroe-result">
+        </div>
+        <h2 id="to-earth">To Earth</h2>
+        <form id="to-earth-form" onsubmit="return false;">
+            <select name="iroe-months" id="iroe-months">
+                <option value="slowakius">Slowakius</option>
+                <option value="month-of-dreams">Month of Dreams</option>
+                <option value="oxors">Oxors</option>
+                <option value="drorsh">Drorsh</option>
+                <option value="dofant">Dofant</option>
+                <option value="stupe">Stupe</option>
+                <option value="month-of-secrets">Month of Secrets</option>
+                <option value="vlupets">Vlupets</option>
+                <option value="haqahs">Haqahs</option>
+                <option value="guwisp">Guwisp</option>
+                <option value="cluix">Cluix</option>
+                <option value="jitoh">Jitoh</option>
+            </select>
+            <input type="submit" value="To Earth Month">
+        </form>
+        <div id="to-earth-result">
+        </div>
+    </body>
+</html>
+
